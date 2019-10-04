@@ -240,31 +240,5 @@ iii. Some errors/bugs that I encountered along the way were:
 	2) As per discussion in classroom, we are allowed to ignore 'I' since there are too many instances of it in document1.txt
 	3) As per discussion in classroom, we are allowed to display duplicate outputs 
 	
-## COMPILE INSTRUCTIONS
-
-You can compile everything by typing 
-
-make clean
-make all
-
-Your programs should run from the terminal as follows:
-./create_and_test_hash <words file name> <query words file name> <flag>
-<flag> should be “quadratic” for quadratic probing, “linear” for linear probing, and “double” for double hashing.
-
-For example you can write on the terminal:
-./create_and_test_hash words.txt query_words.txt quadratic
-
-You can compile Part 3 - Spell checker by: 
-spell_check <document file> <dictionary file>
-A small document named document1_short.txt (and document1.txt) and a dictionary file with approximately 100k words named wordsEn.txt are provided
-
-For example you can write on the terminal:
-./spell_check document1.txt wordsEn.txt
-
-By typing 
-
-make clean
-
-You delete all .o files and executables.
 
 
