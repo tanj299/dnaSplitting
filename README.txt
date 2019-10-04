@@ -1,25 +1,18 @@
-Name: Jayson Tan 
-Course: CSCI 335
-Instructor: Ioannis Stamos 
-Term: Spring 2019 
-Assignment: Assignment 3 - Homework 3 - Hash Table Efficiency and Spell Check Implementation
+# README - DNA SPLITTING 
 
-Compiled on: gcc (Ubuntu 7.3.0-27ubuntu1~18.04) 7.3.0
-NOTE TO PROFESSOR STAMOS: As discussed in the email with Daniel Mallia, outputs from different computers (please see above for compiler information)
-
-*************************ADDITIONAL FILES***************************
+## ADDITIONAL FILES
 
 i. linear_probing.h and double_probing.h were added
 
 ii. A testFile.cpp is included for testing individual/problematic functions. 
 	Note this should not be taken into account when grading and does not affect the program in anyway.
 
-**************************LEARNING OUTCOMES*************************
+## LEARNING OUTCOMES
 i. Part(1) and Part(2) were completed successfully with the outputs matching the expected outcome
 
 
 	Part 1 and 2: 
-
+	
 	// QUADRATIC
 	Words filename: words.txt
 	Query filename: query_words.txt
@@ -219,8 +212,8 @@ iii. Some errors/bugs that I encountered along the way were:
 	1) Expected output of collisions and probing are different on Macs vs gcc 
 	2) As per discussion in classroom, we are allowed to ignore 'I' since there are too many instances of it in document1.txt
 	3) As per discussion in classroom, we are allowed to display duplicate outputs 
-
-**************************COMPILE INSTRUCTIONS*************************
+	
+## COMPILE INSTRUCTIONS
 
 You can compile everything by typing 
 
