@@ -7,6 +7,33 @@ i. linear_probing.h and double_probing.h were added
 ii. A testFile.cpp is included for testing individual/problematic functions. 
 	Note this should not be taken into account when grading and does not affect the program in anyway.
 
+## COMPILE INSTRUCTIONS
+
+You can compile everything by typing 
+
+> make clean
+> make all
+
+Your programs should run from the terminal as follows:
+> ./create_and_test_hash <words file name> <query words file name> <flag>
+> <flag> should be “quadratic” for quadratic probing, “linear” for linear probing, and “double” for double hashing.
+
+For example you can write on the terminal:
+> ./create_and_test_hash words.txt query_words.txt quadratic
+
+You can compile Part 3 - Spell checker by: 
+> spell_check <document file> <dictionary file>
+A small document named document1_short.txt (and document1.txt) and a dictionary file with approximately 100k words named wordsEn.txt are provided
+
+For example you can write on the terminal:
+> ./spell_check document1.txt wordsEn.txt
+
+By typing 
+
+> make clean
+
+You delete all .o files and executables.
+
 ## LEARNING OUTCOMES
 i. Part(1) and Part(2) were completed successfully with the outputs matching the expected outcome
 
